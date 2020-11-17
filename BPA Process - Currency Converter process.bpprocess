@@ -1,0 +1,31 @@
+﻿<process name="Currency Converter process" version="1.0" bpversion="6.9.0.26970" narrative="Currency Converter process" byrefcollection="true" preferredid="6d4c1629-7701-407e-a7cb-913843aab53a">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="c211fa44-9238-4e3f-8092-e55edbd15c25" name="Start" type="Start">
+    <display x="15" y="-105" />
+    <onsuccess>fea6dbcc-8da3-428b-8ade-c5c061076c9f</onsuccess>
+  </stage>
+  <stage stageid="fe6d9054-5f64-41e4-95e4-a583e0e5f3c1" name="End" type="End">
+    <display x="15" y="135" />
+  </stage>
+  <stage stageid="a077b586-255e-4535-a6c2-82a244fc7c14" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="fea6dbcc-8da3-428b-8ade-c5c061076c9f" name="Currency Converter::Launch Currency Converter" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-60" />
+    <onsuccess>8a1c9f92-5506-4c4f-965a-ae1acd4a9aee</onsuccess>
+    <resource object="Currency Converter" action="Launch Currency Converter" />
+  </stage>
+  <stage stageid="8a1c9f92-5506-4c4f-965a-ae1acd4a9aee" name="Currency Converter::Get The result" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="30" />
+    <onsuccess>fe6d9054-5f64-41e4-95e4-a583e0e5f3c1</onsuccess>
+    <resource object="Currency Converter" action="Get The result" />
+  </stage>
+</process>

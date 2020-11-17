@@ -554,6 +554,102 @@
           </attribute>
         </attributes>
       </element>
+      <element name="OutputCountryCode">
+        <id>9148dd82-3517-4922-9e10-2097f18cc259</id>
+        <type>UIAEdit</type>
+        <basetype>UIAEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="uX">
+            <ProcessValue datatype="number" value="1126" />
+          </attribute>
+          <attribute name="uY">
+            <ProcessValue datatype="number" value="436" />
+          </attribute>
+          <attribute name="uWidth">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="uHeight">
+            <ProcessValue datatype="number" value="27" />
+          </attribute>
+          <attribute name="uClassName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAutomationId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uControlType" inuse="True">
+            <ProcessValue datatype="text" value="Text" />
+          </attribute>
+          <attribute name="uLocalizedControlType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="uIsPassword">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uIsRequiredForForm">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uName" inuse="True">
+            <ProcessValue datatype="text" value="To" />
+          </attribute>
+          <attribute name="uOrientation">
+            <ProcessValue datatype="text" value="None" />
+          </attribute>
+          <attribute name="uItemStatus">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uItemType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uTopLevelWindowId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uLabeledBy">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uEnabled">
+            <ProcessValue datatype="text" value="True" />
+          </attribute>
+          <attribute name="uAcceleratorKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uHasKeyboardFocus">
+            <ProcessValue datatype="text" value="False" />
+          </attribute>
+          <attribute name="uHelpText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uProcessId">
+            <ProcessValue datatype="text" value="6300" />
+          </attribute>
+          <attribute name="puControlType">
+            <ProcessValue datatype="text" value="Text" />
+          </attribute>
+          <attribute name="puLocalizedControlType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="puClassName">
+            <ProcessValue datatype="text" value="LabelExtended-jQVGyv kmCby" />
+          </attribute>
+          <attribute name="puName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="puAutomationId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
       <type>Application</type>
       <basetype>Application</basetype>
       <datatype>unknown</datatype>
@@ -564,7 +660,7 @@
       <parameters>
         <parameter>
           <name>Path</name>
-          <value>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</value>
+          <value>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</value>
         </parameter>
         <parameter>
           <name>CommandLineParams</name>
@@ -583,7 +679,7 @@
   </appdef>
   <view>
     <camerax>0</camerax>
-    <cameray>0</cameray>
+    <cameray>-21</cameray>
     <zoom version="2">1.25</zoom>
   </view>
   <preconditions />
@@ -593,24 +689,12 @@
   </stage>
   <stage stageid="5df99117-c7bb-4037-8b56-21d1b12cbd0f" name="Start" type="Start">
     <loginhibit />
-    <display x="15" y="-225" />
-    <onsuccess>c8c06b3d-c7dc-46b0-8990-0ec4ecfd5158</onsuccess>
+    <display x="105" y="-165" />
+    <onsuccess>6f60d9e9-57ee-41d3-98b9-d655a55366cf</onsuccess>
   </stage>
   <stage stageid="c82b9acd-1412-411a-9fdb-476a38d697df" name="End" type="End">
     <loginhibit />
     <display x="-90" y="225" />
-  </stage>
-  <stage stageid="c8c06b3d-c7dc-46b0-8990-0ec4ecfd5158" name="Launch Currency Converter" type="SubSheet">
-    <loginhibit />
-    <display x="15" y="-150" w="60" h="60" />
-    <onsuccess>742677b4-34ea-4117-8244-cfec9a593daf</onsuccess>
-    <processid>6662e64e-4eff-4d0a-8c7e-d9c79ad84ce1</processid>
-  </stage>
-  <stage stageid="742677b4-34ea-4117-8244-cfec9a593daf" name="Get Data from Excel" type="SubSheet">
-    <loginhibit />
-    <display x="15" y="-60" />
-    <onsuccess>b9f07f0e-b023-473b-8b92-8f5a4ed830a5</onsuccess>
-    <processid>8156949f-b7a9-45cb-b366-ef81e8274f7f</processid>
   </stage>
   <stage stageid="b9f07f0e-b023-473b-8b92-8f5a4ed830a5" name="Loop Start1" type="LoopStart">
     <loginhibit />
@@ -640,6 +724,7 @@
     <display x="225" y="75" />
     <inputs>
       <input type="text" name="CountryCode" friendlyname="CountryCode" expr="[Data.CountryCode]" />
+      <input type="text" name="OutputCountry" friendlyname="OutputCountry" expr="[Data.OutputCountry]" />
     </inputs>
     <onsuccess>d4e10502-f81f-4779-bec7-2db05bf63ddc</onsuccess>
     <processid>3fab13da-531f-47ce-bbe5-adb951ee86cd</processid>
@@ -677,5 +762,11 @@
     </inputs>
     <onsuccess>c82b9acd-1412-411a-9fdb-476a38d697df</onsuccess>
     <resource object="MS Excel VBO" action="Close Workbook" />
+  </stage>
+  <stage stageid="6f60d9e9-57ee-41d3-98b9-d655a55366cf" name="Get Data from Excel" type="SubSheet">
+    <loginhibit />
+    <display x="105" y="-60" />
+    <onsuccess>b9f07f0e-b023-473b-8b92-8f5a4ed830a5</onsuccess>
+    <processid>8156949f-b7a9-45cb-b366-ef81e8274f7f</processid>
   </stage>
 </process>

@@ -554,6 +554,102 @@
           </attribute>
         </attributes>
       </element>
+      <element name="OutputCountryCode">
+        <id>9148dd82-3517-4922-9e10-2097f18cc259</id>
+        <type>UIAEdit</type>
+        <basetype>UIAEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="uX">
+            <ProcessValue datatype="number" value="1126" />
+          </attribute>
+          <attribute name="uY">
+            <ProcessValue datatype="number" value="436" />
+          </attribute>
+          <attribute name="uWidth">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="uHeight">
+            <ProcessValue datatype="number" value="27" />
+          </attribute>
+          <attribute name="uClassName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAutomationId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uControlType" inuse="True">
+            <ProcessValue datatype="text" value="Text" />
+          </attribute>
+          <attribute name="uLocalizedControlType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="uIsPassword">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uIsRequiredForForm">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uName" inuse="True">
+            <ProcessValue datatype="text" value="To" />
+          </attribute>
+          <attribute name="uOrientation">
+            <ProcessValue datatype="text" value="None" />
+          </attribute>
+          <attribute name="uItemStatus">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uItemType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uTopLevelWindowId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uLabeledBy">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uEnabled">
+            <ProcessValue datatype="text" value="True" />
+          </attribute>
+          <attribute name="uAcceleratorKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uHasKeyboardFocus">
+            <ProcessValue datatype="text" value="False" />
+          </attribute>
+          <attribute name="uHelpText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uProcessId">
+            <ProcessValue datatype="text" value="6300" />
+          </attribute>
+          <attribute name="puControlType">
+            <ProcessValue datatype="text" value="Text" />
+          </attribute>
+          <attribute name="puLocalizedControlType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="puClassName">
+            <ProcessValue datatype="text" value="LabelExtended-jQVGyv kmCby" />
+          </attribute>
+          <attribute name="puName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="puAutomationId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
       <type>Application</type>
       <basetype>Application</basetype>
       <datatype>unknown</datatype>
@@ -564,7 +660,7 @@
       <parameters>
         <parameter>
           <name>Path</name>
-          <value>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</value>
+          <value>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</value>
         </parameter>
         <parameter>
           <name>CommandLineParams</name>
@@ -583,7 +679,7 @@
   </appdef>
   <view>
     <camerax>0</camerax>
-    <cameray>0</cameray>
+    <cameray>-21</cameray>
     <zoom version="2">1.25</zoom>
   </view>
   <preconditions />
@@ -596,7 +692,7 @@
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="6662e64e-4eff-4d0a-8c7e-d9c79ad84ce1" type="Normal" published="False">
+  <subsheet subsheetid="6662e64e-4eff-4d0a-8c7e-d9c79ad84ce1" type="Normal" published="True">
     <name>Launch Currency Converter</name>
     <view>
       <camerax>0</camerax>
@@ -604,7 +700,7 @@
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="8156949f-b7a9-45cb-b366-ef81e8274f7f" type="Normal" published="False">
+  <subsheet subsheetid="8156949f-b7a9-45cb-b366-ef81e8274f7f" type="Normal" published="True">
     <name>Get Data from Excel</name>
     <view>
       <camerax>0</camerax>
@@ -612,15 +708,15 @@
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="218bb3cb-96a5-4d6f-814c-b6c4a185d011" type="Normal" published="False">
+  <subsheet subsheetid="218bb3cb-96a5-4d6f-814c-b6c4a185d011" type="Normal" published="True">
     <name>Get The result</name>
     <view>
       <camerax>0</camerax>
-      <cameray>-9</cameray>
+      <cameray>33</cameray>
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="388ec1b5-6fb9-43b4-bb31-f41c143abdc3" type="Normal" published="False">
+  <subsheet subsheetid="388ec1b5-6fb9-43b4-bb31-f41c143abdc3" type="Normal" published="True">
     <name>Input Amount</name>
     <view>
       <camerax>0</camerax>
@@ -628,15 +724,15 @@
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="3fab13da-531f-47ce-bbe5-adb951ee86cd" type="Normal" published="False">
+  <subsheet subsheetid="3fab13da-531f-47ce-bbe5-adb951ee86cd" type="Normal" published="True">
     <name>Get Input Country Type</name>
     <view>
       <camerax>0</camerax>
-      <cameray>-81</cameray>
+      <cameray>-17</cameray>
       <zoom version="2">1.25</zoom>
     </view>
   </subsheet>
-  <subsheet subsheetid="f9a61bc2-cf3b-49ae-bb73-0e2be33123d5" type="Normal" published="False">
+  <subsheet subsheetid="f9a61bc2-cf3b-49ae-bb73-0e2be33123d5" type="Normal" published="True">
     <name>select go and read output</name>
     <view>
       <camerax>-230</camerax>
@@ -852,27 +948,13 @@ You will not be able to call this action from a business process, nor will it be
   <stage stageid="5df99117-c7bb-4037-8b56-21d1b12cbd0f" name="Start" type="Start">
     <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
     <loginhibit />
-    <display x="15" y="-225" />
-    <onsuccess>c8c06b3d-c7dc-46b0-8990-0ec4ecfd5158</onsuccess>
+    <display x="105" y="-165" />
+    <onsuccess>6f60d9e9-57ee-41d3-98b9-d655a55366cf</onsuccess>
   </stage>
   <stage stageid="c82b9acd-1412-411a-9fdb-476a38d697df" name="End" type="End">
     <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
     <loginhibit />
     <display x="-90" y="225" />
-  </stage>
-  <stage stageid="c8c06b3d-c7dc-46b0-8990-0ec4ecfd5158" name="Launch Currency Converter" type="SubSheet">
-    <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
-    <loginhibit />
-    <display x="15" y="-150" w="60" h="60" />
-    <onsuccess>742677b4-34ea-4117-8244-cfec9a593daf</onsuccess>
-    <processid>6662e64e-4eff-4d0a-8c7e-d9c79ad84ce1</processid>
-  </stage>
-  <stage stageid="742677b4-34ea-4117-8244-cfec9a593daf" name="Get Data from Excel" type="SubSheet">
-    <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
-    <loginhibit />
-    <display x="15" y="-60" />
-    <onsuccess>b9f07f0e-b023-473b-8b92-8f5a4ed830a5</onsuccess>
-    <processid>8156949f-b7a9-45cb-b366-ef81e8274f7f</processid>
   </stage>
   <stage stageid="b9f07f0e-b023-473b-8b92-8f5a4ed830a5" name="Loop Start1" type="LoopStart">
     <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
@@ -921,13 +1003,14 @@ You will not be able to call this action from a business process, nor will it be
     <display x="45" y="-240" />
     <inputs>
       <input type="text" name="CountryCode" stage="CountryCode" />
+      <input type="text" name="OutputCountry" stage="OutputCountry" />
     </inputs>
     <onsuccess>876e67ba-1fbf-4fc6-84d8-f597f231c647</onsuccess>
   </stage>
   <stage stageid="c811fc46-25b7-44e2-bef3-3448ed2ace86" name="End" type="End">
     <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
     <loginhibit />
-    <display x="45" y="75" />
+    <display x="45" y="225" />
   </stage>
   <stage stageid="62ee67cf-ca5f-4670-8d56-1f646f9127bc" name="Place the country code" type="Navigate">
     <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
@@ -956,7 +1039,7 @@ You will not be able to call this action from a business process, nor will it be
     <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
     <loginhibit />
     <display x="45" y="0" />
-    <onsuccess>c811fc46-25b7-44e2-bef3-3448ed2ace86</onsuccess>
+    <onsuccess>93a19ac9-35da-4179-bdae-1d90d385d337</onsuccess>
     <step>
       <element id="bf923ae5-f7a1-4196-925a-b2a0b1529609" />
       <action>
@@ -1070,6 +1153,7 @@ You will not be able to call this action from a business process, nor will it be
     <display x="225" y="75" />
     <inputs>
       <input type="text" name="CountryCode" friendlyname="CountryCode" expr="[Data.CountryCode]" />
+      <input type="text" name="OutputCountry" friendlyname="OutputCountry" expr="[Data.OutputCountry]" />
     </inputs>
     <onsuccess>d4e10502-f81f-4779-bec7-2db05bf63ddc</onsuccess>
     <processid>3fab13da-531f-47ce-bbe5-adb951ee86cd</processid>
@@ -1215,6 +1299,86 @@ You will not be able to call this action from a business process, nor will it be
     <display x="120" y="-30" w="30" h="30" />
     <groupid>1cbda8dc-b2c6-4b0c-9571-94e78068269a</groupid>
     <choices />
-    <timeout>10</timeout>
+    <timeout>3</timeout>
+  </stage>
+  <stage stageid="d5248ebf-5e72-43a4-8e12-a9210395b8cc" name="Hit enter on DropDown" type="Navigate">
+    <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
+    <loginhibit />
+    <display x="45" y="180" />
+    <onsuccess>c811fc46-25b7-44e2-bef3-3448ed2ace86</onsuccess>
+    <step>
+      <element id="bf923ae5-f7a1-4196-925a-b2a0b1529609" />
+      <action>
+        <id>SendKeys</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{ENTER}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="93a19ac9-35da-4179-bdae-1d90d385d337" name="Click on output lable" type="Navigate">
+    <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
+    <loginhibit />
+    <display x="45" y="45" />
+    <onsuccess>a0476311-3628-43c7-a4ec-c1ac5a511128</onsuccess>
+    <step>
+      <element id="9148dd82-3517-4922-9e10-2097f18cc259" />
+      <action>
+        <id>UIAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="a0476311-3628-43c7-a4ec-c1ac5a511128" name="Place the output Country code" type="Navigate">
+    <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
+    <loginhibit />
+    <display x="45" y="120" />
+    <onsuccess>d5248ebf-5e72-43a4-8e12-a9210395b8cc</onsuccess>
+    <step>
+      <element id="bf923ae5-f7a1-4196-925a-b2a0b1529609" />
+      <action>
+        <id>SendKeys</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>[OutputCountry]</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="150aa035-6342-488c-a3be-2fb75b6e5d23" name="OutputCountry" type="Data">
+    <subsheetid>3fab13da-531f-47ce-bbe5-adb951ee86cd</subsheetid>
+    <display x="360" y="45" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6f60d9e9-57ee-41d3-98b9-d655a55366cf" name="Get Data from Excel" type="SubSheet">
+    <subsheetid>218bb3cb-96a5-4d6f-814c-b6c4a185d011</subsheetid>
+    <loginhibit />
+    <display x="105" y="-60" />
+    <onsuccess>b9f07f0e-b023-473b-8b92-8f5a4ed830a5</onsuccess>
+    <processid>8156949f-b7a9-45cb-b366-ef81e8274f7f</processid>
   </stage>
 </process>
